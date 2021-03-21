@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+$primaryColor: #292929;
+$secondaryColor: #00FF75;
+$light: #fff;
+.main {
+    min-height: 100vh;
+    background-color: $primaryColor;
+    color: $light;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    &__list {
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+  
+        &__item {
+            margin-left: 20px;
+            a {
+                text-decoration: none;
+                color: $light;
+                transition: .4s ease-in-out;
+
+                &:hover {
+                    opacity: .4;
+                }
+            }
+       
+        }
+    }
+}
+
+.span {
+    display: block;
+    color: $secondaryColor;
+    font-size: .8rem;
+    position: relative;
+
+}
+.article {
+    max-width: 80%;
+    height: 100%;
+    // background-color: $light;
+    // color: $primaryColor;
+    margin: 0 auto;
+    text-align: center;
+    p {
+        text-align: justify;
+    }
+}
+
+.lados {
+    width: 30%;
+
+}
+
+// tabela
+
+.pagenumber {
+    display: none;
+}
+td {
+    padding: 15px;
+    border: 1px solid;
+}
+
+.list {
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    background-color: $primaryColor;
+    color: $light;
+}

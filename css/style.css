@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  min-height: 100vh;
+  background-color: #292929;
+  color: #fff;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.5rem;
+}
+
+.menu__list {
+  list-style: none;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__list__item {
+  margin-left: 20px;
+}
+
+.menu__list__item a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.menu__list__item a:hover {
+  opacity: .4;
+}
+
+.span {
+  display: block;
+  color: #00FF75;
+  font-size: .8rem;
+  position: relative;
+}
+
+.article {
+  max-width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.article p {
+  text-align: justify;
+}
+
+.lados {
+  width: 30%;
+}
+
+.pagenumber {
+  display: none;
+}
+
+td {
+  padding: 15px;
+  border: 1px solid;
+}
+
+.list {
+  text-align: left;
+}
+
+.footer {
+  text-align: center;
+  background-color: #292929;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
